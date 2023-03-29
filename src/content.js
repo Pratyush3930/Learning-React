@@ -5,7 +5,7 @@ const Content = ({ items, handleCheck, handleDelete }) => {
 
 
     return (
-        <main>
+        <>
             {/* the items.length is false when it 
             is equal to zero  */}
             {items.length ? (
@@ -18,7 +18,7 @@ const Content = ({ items, handleCheck, handleDelete }) => {
             ) : (
                 <p style={{ marginTop: '2rem' }}>Your list is empty.</p>
             )}
-        </main>
+        </>
     )
 }
 
